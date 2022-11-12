@@ -1,0 +1,12 @@
+﻿Messaggi:
+
+	START			messaggio che invita l'host che lo riceve a partecipare ad una partita
+	NO				messaggio inviato dall'host che non accetta l'invito alla partita
+	OK				messaggio inviato dall'host che accetta l'invito alla partita
+	DISCONNECT		messaggio inviato dall'host che annuncia la disconnessione
+	END				messaggio inviato per avvisare la fine della partita
+	REMATCH			messaggio inviato da chi vuole una rivincita
+	NO_REMATCH		messaggio inviato da chi non vuole la rivincita
+	O				messaggio che avvisa il ricevente la lettera che deve usare
+	X				messaggio che avvisa il ricevente la lettera che deve usare
+	LABEL/			messaggio che avvisa il ricevente di quale mossa è stata fatta

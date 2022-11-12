@@ -1,0 +1,15 @@
+C:\Users\Filippo\Desktop\Tris\Tris\obj\Debug\MainWindow.g.cs
+C:\Users\Filippo\Desktop\Tris\Tris\obj\Debug\App.g.cs
+C:\Users\Filippo\Desktop\Tris\Tris\obj\Debug\Tris_MarkupCompile.cache
+C:\Users\Filippo\Desktop\Tris\Tris\obj\Debug\Tris_MarkupCompile.lref
+C:\Users\Filippo\Desktop\Tris\Tris\bin\Debug\Tris.exe.config
+C:\Users\Filippo\Desktop\Tris\Tris\bin\Debug\Tris.exe
+C:\Users\Filippo\Desktop\Tris\Tris\bin\Debug\Tris.pdb
+C:\Users\Filippo\Desktop\Tris\Tris\obj\Debug\MainWindow.baml
+C:\Users\Filippo\Desktop\Tris\Tris\obj\Debug\Tris.g.resources
+C:\Users\Filippo\Desktop\Tris\Tris\obj\Debug\Tris.Properties.Resources.resources
+C:\Users\Filippo\Desktop\Tris\Tris\obj\Debug\Tris.csproj.GenerateResource.cache
+C:\Users\Filippo\Desktop\Tris\Tris\obj\Debug\Tris.csproj.CoreCompileInputs.cache
+C:\Users\Filippo\Desktop\Tris\Tris\obj\Debug\Tris.exe
+C:\Users\Filippo\Desktop\Tris\Tris\obj\Debug\Tris.pdb
+C:\Users\Filippo\Desktop\Tris\Tris\obj\Debug\Tris.csprojAssemblyReference.cache

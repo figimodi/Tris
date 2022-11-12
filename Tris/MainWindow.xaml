@@ -1,0 +1,27 @@
+﻿<Window x:Class="Tris.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        
+        xmlns:local="clr-namespace:Tris"
+        mc:Ignorable="d"
+        Title="Tris" Height="500" Width="500" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="favicon.ico" Cursor="Arrow">
+    
+    
+    <Grid x:Name="g1" Height="500" Width="500" Background="#FF24AFF0">
+        <TextBox x:Name="txtIP" HorizontalAlignment="Left" Height="24" Margin="130,10,0,0" TextWrapping="Wrap" Text="inserisci qui l'ip" VerticalAlignment="top" Width="222" FontSize="16" Foreground="#FF6A6A6A" Background="#7FFFFFFF" FontFamily="Consolas" TextAlignment="Center" KeyDown="TxtIP_KeyDown" GotFocus="TxtIP_GotFocus" BorderBrush="Black"/>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="80" x:Name="lbl0" Content="" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="120" Width="120" BorderBrush="Black" BorderThickness="0,0,2,2" Margin="64,79,316,301" MouseDoubleClick="Click" />
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="80" x:Name="lbl1" Content="" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="120" Width="120" BorderThickness="2,0,2,2" BorderBrush="Black" Margin="184,79,196,301" MouseDoubleClick="Click" />
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="80" x:Name="lbl2" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Height="120" Width="120" BorderThickness="2,0,0,2" BorderBrush="Black" Margin="304,79,76,301" MouseDoubleClick="Click" />
+
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="80" x:Name="lbl3" Content="" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="120" Width="120" BorderThickness="0,2,2,2" BorderBrush="Black" Margin="64,199,316,181" MouseDoubleClick="Click" />
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="80" x:Name="lbl4" Content="" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="120" Width="120" BorderThickness="2" BorderBrush="Black" Margin="184,199,196,181" MouseDoubleClick="Click" />
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="80" x:Name="lbl5" Content="" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="120" Width="120" BorderThickness="2,2,0,2" BorderBrush="Black" Margin="304,199,76,181" MouseDoubleClick="Click" />
+
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="80" x:Name="lbl6" Content="" HorizontalAlignment="Center" VerticalAlignment="Center"  BorderBrush="Black" BorderThickness="0,2,2,0" Height="120" Margin="64,319,316,61" Width="120" MouseDoubleClick="Click" />
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="80" x:Name="lbl7" Content="" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="120" Width="120" BorderThickness="2,2,2,0" BorderBrush="Black" Margin="184,319,196,61" MouseDoubleClick="Click" />
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="80" x:Name="lbl8" Content="" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="120" Width="120" BorderThickness="2,2,0,0" BorderBrush="Black" Margin="304,319,76,61" MouseDoubleClick="Click"  />
+        <Button x:Name="btnDisconnect" Content="Stop" HorizontalAlignment="Left" Margin="378,11,0,0" VerticalAlignment="Top" Width="75" Click="BtnDisconnect_Click" Background="#BFCCFF20" Foreground="Black"/>
+    </Grid>
+</Window>
